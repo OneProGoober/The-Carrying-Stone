@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f12b4d6938fb2e48bdc7c46173b71b9, type: 3}
+  m_Name: Weak Multi Target Heal
+  m_EditorClassIdentifier: 
+  abilityName: Weak AoE Heal
+  abilityDescription: Well.. at least you tried to help.
+  abilityLifetime: 3
+  cooldownTime: 8
+  lastUsedTime: 26.145586
+  playerAbilities: {fileID: 0}
+  teamWhoCast: TeamOne
+  healAmount: 10
+  abilityRadius: 5
+  betweenCycles: 1
+  healParticleSystem: {fileID: 1943217719793434, guid: d841311ebfc2a8a40bacf26f31fbe719,
+    type: 2}
+  effectsCastingPlayer: 0
+  healCycles: 3
+  maxTargets: 3

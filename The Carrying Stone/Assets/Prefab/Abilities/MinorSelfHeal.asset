@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f1d03ca17f3b343a5f50a157f1d971, type: 3}
+  m_Name: MinorSelfHeal
+  m_EditorClassIdentifier: 
+  abilityName: Minor Heal
+  abilityDescription: Minor heals yourself in cycles
+  abilityLifetime: 5
+  cooldownTime: 8.5
+  lastUsedTime: 33.0145
+  playerAbilities: {fileID: 0}
+  teamWhoCast: TeamOne
+  healPerCycle: 8
+  numberOfHealCycles: 5
+  betweenCycles: 0.8
+  healParticleSystem: {fileID: 1876674585577832, guid: bd8b719e9ba82d44c9d6b64fab52d916,
+    type: 2}
+  healSelf: 0

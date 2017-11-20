@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22a7d45c70ed7b46880274c4396ead6, type: 3}
+  m_Name: AoE Power Boost
+  m_EditorClassIdentifier: 
+  abilityName: AoE Boost
+  abilityDescription: Boost all your friendly n00bs
+  abilityLifetime: 8
+  cooldownTime: 3
+  lastUsedTime: 13.87678
+  playerAbilities: {fileID: 0}
+  teamWhoCast: TeamOne
+  buffParticles: {fileID: 1063622016796800, guid: 3236591cd18563a40a22bc1b440a0f35,
+    type: 2}
+  abilityRadius: 10
+  buffAmount: 8
+  buff: 0
+  effectsCastingPlayer: 0
+  maxPlayersToBoost: 3
